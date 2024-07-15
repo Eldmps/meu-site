@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <title>-- Formulario de Contato --</title>
+    <meta charset="utf-8">
+
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+            
+        }
+
+        form{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 15px;
+            background-color: #cc3300;
+            max-width: 500px;
+        }
+
+        h2{
+            margin-bottom: 20px;
+            margin-left: 20px;
+            color: #66ffff;
+            text-shadow: 5px 5px 5px black;
+        }
+
+        input, textarea{
+            width: 200px;
+            padding: 10px;
+            color: black;
+            margin-left: 20px;
+            margin-top: 10px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border: 1px solid;
+        }
+
+        input:hover, textarea:hover, input:focus, textarea:focus{
+            border-color: #000066;
+            box-shadow: 5px 0px 9px #ffff00;
+            background-color: #66ffff;
+            color: black;
+            font-weight: bold;
+        }
+
+        .enviar {
+            background-color: #66ffff;
+            height: 40px;
+            width: 100px;
+            font-weight: bold;
+            border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border: 1px solid;
+            color: black;
+        }
+
+        textarea {
+            width: 400px;
+            height: 120px;
+            line-height: 2opx;
+            max-width: 400px;
+        }
+
+        form label {
+            margin-left: 20px;
+            color: #ffffff;
+            font-weight: bold;
+        }
+
+        header{
+            text-align: center;
+            background-color: #ffffff;
+          
+        }
+
+        .logo {
+            background-color: #000066;
+            color:#ffff00;
+            padding: 50px;
+            margin: 20px;
+
+            animation-duration: 2s;
+            animation-name: sliden;
+            <!-- animation-iteration-count: infinite;    -->
+        
+        }
+        @keyframes sliden {
+            from {
+                margin-bottom: 100%;
+                width: 300%;
+                margin-top: 20%;
+                position: fixed;
+            }
+
+            <!-- to {
+                margin-left: 0%;
+                width: 100%;
+            } -->
+        }
+
+
+
+
+        .a1 {
+            margin-left: 30px;
+            text-decoration: none;
+            
+            
+        }
+        .a1:hover {
+          
+            box-shadow: 10px 10px 9px #ffff00;
+        }
+
+        #imagem {
+            text-align: center;
+            
+        }
+
+        img{
+            width: 80%;
+            height: 400px;
+            margin: 5px;
+            transition: 0.3s;
+
+
+            animation-duration: 0.5s;
+            animation-name: sliden;
+            <!-- animation-iteration-count: infinite;   -->
+            
+        }
+        img:hover {
+            width: 90%;
+            height: 410px;
+            cursor: pointer;
+        }
+
+        footer, #footer{
+            background-color: #000066;
+            color:#ffff00;
+            padding: 40px;
+            margin: 40px;
+            display: block;
+            text-align: center;
+
+            
+        }
+
+        a{
+            margin-left: px;
+            text-decoration: none;
+
+        }
+
+
+    </style>
+</head>
+<body>
+
+
+    <!-- <header>
+        <h1 class="logo" >LOGO</h1>
+
+        <a class="a1" href="#">HOME</a>
+        <a class="a1" href="#">SOBRE NÓS</a>
+        <a class="a1" href="#">CONTATO</a>
+    </header>
+
+
+    <div id="imagem">
+        <a href="https://kennydouglas.com.br/wp-content/uploads/2024/01/fotos-de-paisagens-600x314.webp" ><img src="https://kennydouglas.com.br/wp-content/uploads/2024/01/fotos-de-paisagens-600x314.webp"></a></img>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCiTRVwoWS6x33H1MizjNz0HY9WPgOe9uJJCyJc8dtrcHOQ7IMxrX3EMEV5WjkREDVPHk&usqp=CAU">
+        <img src="https://kennydouglas.com.br/wp-content/uploads/2024/01/fotografia-de-paisagens.webp">
+
+        <img src="https://kennydouglas.com.br/wp-content/uploads/2024/01/fotos-de-paisagens-600x314.webp">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCiTRVwoWS6x33H1MizjNz0HY9WPgOe9uJJCyJc8dtrcHOQ7IMxrX3EMEV5WjkREDVPHk&usqp=CAU">
+        <img src="https://kennydouglas.com.br/wp-content/uploads/2024/01/fotografia-de-paisagens.webp">
+    </div> -->
+
+
+
+
+
+
+
+
+    <footer>
+        <a id="footer" href="C:\Users\HOMEPC\Desktop\deliveryTeste\index.html">HOME</a>
+        <a id="footer" href="C:\Users\HOMEPC\Desktop\deliveryTeste\sobre.html">SOBRE NÓS</a>
+        <a id="footer" href="C:\Users\HOMEPC\Desktop\deliveryTeste\contato.html">CONTATO</a>
+    </footer>
+
+
+
+
+
+
+
+
+
+    <!-- <form>
+
+        <h2>Entre em Contato</h2>
+
+        <input type="text" id="nomeid" placeholder="elidembergues" required="required" name="nome">
+        <label for="name">Nome</label>
+
+        <input type="tel" id="foneid" placeholder="(xx)xxx-xx-xx-xx" name="fone">
+        <label for="name">Fone</label>
+
+        <input type="text" id="emailid" placeholder="@gmail.com" name="email">
+        <label for="name">Email</label>
+
+        <textarea placehoolder="Deixe sua opnião"></textarea>
+
+        <input type="submit" class="Enviar" onclick="Enviar();" value="Enviar">
+    </form> -->
+    
+
+
+
+
+    <!-- <script>
+        function Enviar() {
+            var nome = document.getElementById("nomeid");
+            var fone = document.getElementById("foneid");
+            var email = document.getElementById("emailid");
+
+            document.write('Obrigado sr(a)' + nome.value + ' ' + fone.value + ' ' + email.value + 'OS seus dados foram encaminhados com sucesso')
+        }
+    </script> -->
+</body>
+</html>
